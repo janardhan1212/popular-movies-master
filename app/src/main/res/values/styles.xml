@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/orange</item>
+    </style>
+
+    <style name="GridViewStyle">
+    </style>
+
+    <style name="GridViewItemStyle">
+    </style>
+
+</resources>

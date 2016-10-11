@@ -1,0 +1,8 @@
+<resources>
+    <style name="GridViewStyle">
+        <item name="android:choiceMode">singleChoice</item>
+    </style>
+    <style name="GridViewItemStyle">
+        <item name="android:background">?android:attr/activatedBackgroundIndicator</item>
+    </style>
+</resources>

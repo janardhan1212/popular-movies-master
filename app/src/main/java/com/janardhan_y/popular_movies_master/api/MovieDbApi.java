@@ -1,0 +1,22 @@
+package com.janardhan_y.popular_movies_master.api;
+
+import retrofit.RestAdapter;
+
+/**
+ * Created by maximyudin on 25.06.15.
+ */
+public class MovieDbApi {
+    private static final String API_BASE_URL = "http://api.themoviedb.org/3";
+    private final MovieDbService mMovieDbService;
+
+    public MovieDbApi() {
+        RestAdapter restAdapter = new RestAdapter.Builder()
+                .setEndpoint(API_BASE_URL)
+                .build();
+        this.mMovieDbService = restAdapter.create(MovieDbService.class);
+    }
+
+    public MovieDbService getService() {
+        return this.mMovieDbService;
+    }
+}
